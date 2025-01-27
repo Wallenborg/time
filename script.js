@@ -23,7 +23,7 @@ function getRandomColor() {
     nextBlock.style.zIndex = zIndexCounter;
   
   
-    const randomDuration = Math.random() * 10 + 5; 
+    const randomDuration = Math.random() * 3 + 5; 
     console.log(`Animating from: ${isFromLeft ? 'Left' : 'Right'}, Duration: ${randomDuration}s`);
   
 
