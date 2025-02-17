@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Time Is Now</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div id="block-container">
-    <div class="block" id="current-block"></div>
-    <div class="block" id="next-block"></div>
-  </div>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Is Now</title>
+    <meta name="author" content="Niklas Wallenborg" />
+    <meta
+      name="title"
+      content="Time is now, but also a capitalist invention. or This is not a political work, it's just colors..."
+    />
+    <meta
+      name="description"
+      content="This code creates a smooth, endless color-block animation 
+  that gradually transitions across the screen. The animation consists of two blocks that take turns fading in 
+  and sliding across the screen in different directions. A randomized algorithm (stochastic algorithm) determines 
+  both the color selection and animation speed, making each transition unique and unpredictable"
+    />
+    <meta name="year" content="2025" />
+    <meta name="owner" content="Joel Albinsson" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://t-i-n.netlify.app/",
+        "creator": {
+          "@type": "Person",
+          "name": "Niklas Wallenborg"
+        },
+        "copyrightHolder": {
+          "@type": "Person",
+          "name": "Joel Albinsson"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="block-container">
+      <div class="block" id="current-block"></div>
+      <div class="block" id="next-block"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
-
